@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat&display=swap');
+
+/* ----------------------Colours */
+
+.bg-color-navigation {
+    margin:0;
+    background-color: #000;
+    min-height: 140px;
+}
+
+.bg-color-prompt {
+    background-color: #000;
+}
+
+/* ----------------------Navigation */
+.menuitem {
+    color: #5CE1E6;
+    text-align: left;
+    width: 100%;
+    padding-top: 28px;
+    transition: all 0.4s ease-in-out;
+}
+
+.menuitem a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menuitem a:visited {
+    text-decoration: none;
+    color: #5CE1E6;
+}
+
+.menuitem a:active {
+color: #5CE1E6;
+}
+
+/* ----------------------General */
+
+.section-heading {
+    font-family: "League Spartan", sans-serif;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+/* ----------------------Heading */
+
+header {
+    background-color: #000;
+}
+
+.logo {
+    background: url(../images/Technologi\ GoDaddy\ Store\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 140px;
+    max-width: 320px;
+}
+
+.menuitem {
+font-family: "League Spartan", sans-serif;
+font-weight: 600;
+font-size: 20px;
+width: 300px;
+margin-top: 50px;
+
+}
+
+/* ----------------------Footer */
+
+footer {
+    background-color: #000;
+    color: #5CE1E6;
+    min-height: 50px;
+    margin: 0;
+}
+
+span {
+    margin: 0;
+}
+
+.social i {
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    color: #5CE1E6;
+}
+
+.social i:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social i:visited {
+    text-decoration: none;
+    color: #5CE1E6;
+}
+
+.social i:active {
+color: #5CE1E6;
+}
+
+#footer-details {
+    padding: 20px;
+}
