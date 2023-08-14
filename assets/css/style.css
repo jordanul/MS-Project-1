@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Livvic:wght@700&family=Montserrat&display=swap');
 
 /* ----------------------Colours */
+
+.bg-body {
+background-color: #000;
+}
 
 .bg-color-navigation {
     margin:0;
@@ -11,6 +15,25 @@
 .bg-color-prompt {
     background-color: #000;
 }
+
+
+.bg-faq-start {
+    background-color: #5CE1E6;
+    width: 100%;
+    opacity: 1.0;
+   }
+
+.secret-bg {
+    background-color: #000;
+}
+
+.bg-strip {
+    background-color: #5CE1E6;
+    height: 20px;
+    max-width: 100%;
+    margin-top: 0px;
+    opacity: 0.5;
+   }
 
 /* ----------------------Navigation */
 .menuitem {
@@ -35,15 +58,93 @@
 color: #5CE1E6;
 }
 
+.contact a {
+    font-family: "League Spartan", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    color: #5CE1E6;
+}
+
+.contact a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact a:visited {
+    text-decoration: none;
+    color: #5CE1E6;
+}
+
+.contact a:active {
+color: #5CE1E6;
+}
+
+
 /* ----------------------General */
 
+.hand-img {
+    margin-top: 40px;
+    height: 400px;
+    width: 400px;
+    
+}
+
 .section-heading {
+    font-size: 50px;
     font-family: "League Spartan", sans-serif;
     max-width: 600px;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 40px;
     color: #fff;
 }
+
+.section-heading-2 {
+    font-size: 50px;
+    font-family: "League Spartan", sans-serif;
+    max-width: 600px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #000;
+    opacity: 1.0;
+}
+
+.section-description {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: "Montserrat", sans-serif;
+    color: #5CE1E6;
+}
+
+.section-area {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+/* ----------------------FAQ-section */
+
+.questions {
+    color: #E26FA3;
+    font-family: 'Livvic', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.answers {
+    color: #5CE1E6;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.faq-icon {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 60px;
+    padding-right: 5px;
+}
+
 
 /* ----------------------Heading */
 
