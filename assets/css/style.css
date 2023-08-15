@@ -85,6 +85,24 @@ color: #5CE1E6;
 color: #5CE1E6;
 }
 
+/* ---------------------- Partner Page */
+
+.partner-heading {
+    font-family: "League Spartan", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    color: #5CE1E6;
+    margin-left: 50%;
+}
+
+.partner-desc {
+    font-family: "Montserrat", sans-serif;
+}
+
+.partner-heading-2 {
+    font-family: "League Spartan", sans-serif;
+    color: #fff;
+}
 
 /* ----------------------General */
 
