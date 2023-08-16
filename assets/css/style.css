@@ -39,6 +39,7 @@ a {
     margin-top: 0px;
     opacity: 0.5;
    }
+   
 
 /* ----------------------Navigation */
 .menuitem {
@@ -47,6 +48,7 @@ a {
     width: 100%;
     padding-top: 28px;
     transition: all 0.4s ease-in-out;
+    float: left;
 }
 
 .menuitem a:hover {
@@ -111,9 +113,20 @@ color: #5CE1E6;
 }
 
 .partner-logo {
-    margin-top: 5px;
     position: relative;
+    padding-top: 30px;
     padding-bottom: 30px;
+    border-radius: 30px;
+    background: fff;
+    border: solid 1px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 50%;
+    object-fit: cover;
+    box-sizing: content-box;
 }
 
 
@@ -162,6 +175,12 @@ color: #5CE1E6;
 .section-area {
     margin-top: 60px;
     margin-bottom: 100px;
+}
+
+.signup-banner {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
 }
  
 /* ----------------------FAQ-section */
@@ -250,4 +269,45 @@ color: #5CE1E6;
 
 #footer-details {
     padding: 20px;
+}
+
+/* ----------------------------------------Form 1 */
+
+.get-kae-heading {
+    font-family: "League Spartan", sans-serif;
+    color: #5CE1E6;
+    font-weight: 600;
+    font-size: 40px;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+   }
+
+   #signup {
+    font-family: "League Spartan", sans-serif;
+    color: #5CE1E6;
+    font-weight: 600;
+    font-size: 30px;
+    width: 300px;
+    margin: 10px auto;
+   }
+   
+   button[type="submit"] {
+    background-color:#E26FA3;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    }
+
+    button[type="submit"]:hover {
+        color:#5CE1E6;
+    }
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 50px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
