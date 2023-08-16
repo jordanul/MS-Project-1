@@ -92,16 +92,36 @@ color: #5CE1E6;
     margin-top: 30px;
     text-align: center;
     color: #5CE1E6;
-    margin-left: 50%;
 }
 
 .partner-desc {
     font-family: "Montserrat", sans-serif;
+    color: grey;
+    text-align: center;
 }
 
 .partner-heading-2 {
     font-family: "League Spartan", sans-serif;
     color: #fff;
+    margin-top: 20px;
+}
+
+.partner-icon {
+    color: #fff;
+}
+
+.partner-logo {
+    margin-top: 5px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+
+.region-heading {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
 }
 
 /* ----------------------General */
