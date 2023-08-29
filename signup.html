@@ -42,14 +42,35 @@
     </section>
     <section>
         <div class="row">
-            <div class="col op-bg">
+            <div class="col-12 op-bg">
                 <h3 class="get-kae-heading text-center">Ready?</h3>
                 <h5 id="signup" class="text-center">Sign Up Here!</h5>
                 <div class="center-form">
                     <form>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                        <h5>Would you like a physical card?</h5><input type="checkbox">
+                        <label for="checkbox" id="checkbox-label">Would you like a physical card?</label>
+                        <input type="checkbox" id="checkbox">
+                        <br>
+                        <div class="card-selection">
+                            <img src="assets/images/cards/mockup-of-a-credit-card-1642-el (3).png" class="card-selection zoom" alt="">
+                                <input type="radio" id="classic" name="classic"/>
+                                <label for="classic">Classic</label>
+                            <img src="assets/images/cards/mockup-of-a-credit-card-1642-el (2).png" class="card-selection zoom" alt="">
+                            <input type="radio" id="barbie" name="barbie"/>
+                                <label for="barbie">Barbie</label>
+                                <br>
+                            <img src="assets/images/cards/mockup-of-a-credit-card-1642-el (1).png" class="card-selection zoom" alt="">
+                            <input type="radio" id="evergreen" name="evergreen"/>
+                                <label for="evergreen">Evergreen</label>
+                            <img src="assets/images/cards/mockup-of-a-credit-card-1642-el (5).png" class="card-selection zoom" alt="">
+                            <input type="radio" id="pearlaqua" name="pearlaqua"/>
+                                <label for="pearlaqua">Pearl Aqua</label>
+                            </div>
+                            <img src="assets/images/cards/mockup-of-a-credit-card-1642-el (6).png" class="card-selection zoom" alt="">
+                            <input type="radio" id="wildcard" name="wildcard"/>
+                                <label for="wildcard">Wildcard - Design your own (Limited Edition Pride Card 2023)</label>
+                            </div>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-secondary kae"><span>Kae.</span></button>
@@ -70,7 +91,7 @@
             </div>
             <div class="col-sm-4 social">
                 <a target="_blank" href="https://www.twitter.com">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
                 </a>
             </div>
             <div class="col-sm-4 social">

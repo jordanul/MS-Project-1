@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Livvic:wght@700&family=Montserrat&display=swap');
 
-html, body {
-    width: 100%;
-    height: 100%;
-}
-
 /* ----------------------Colours */
 
 .bg-body {
@@ -19,6 +14,7 @@ a {
     margin: 0;
     background-color: #000;
     min-height: 140px;
+    font-size: 30px;
 }
 
 .bg-color-prompt {
@@ -29,6 +25,7 @@ a {
 .bg-faq-start {
     background: url(../images/FAQBan.svg);
     background-repeat: repeat-x;
+    background-position: center;
     width: 100%;
     opacity: 1.0;
    }
@@ -94,10 +91,9 @@ color: #5CE1E6;
 
 .op-bg {
     background: url(../images/OP-BG.svg);
-    background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-    
 }
 
 .partner-heading {
@@ -131,7 +127,6 @@ color: #5CE1E6;
     padding-bottom: 30px;
     border-radius: 30px;
     text-align: center;
-    display: block;
     object-fit: cover;
     box-sizing: content-box;
 }
@@ -142,7 +137,6 @@ color: #5CE1E6;
     margin-bottom: 10px;
     color: #fff;
     font-family: "League Spartan", sans-serif;
-    border: solid 1px #fff;
     border-radius: 25px;
     background: rgba(0, 0, 0, 0.9);
     box-shadow: var(--boxshadow);
@@ -276,13 +270,35 @@ margin-top: 50px;
 
 }
 
+/* ----------------------App Section */
+
+.bg-double {
+height: 100px;
+background-color: fff;
+border: 5px solid fff;
+border-radius: 15px;
+z-index: 1;
+width: 60%
+}
+
+.apple{
+z-index: 3;
+}
+
+.goog {
+z-index: 3;
+}
+
+.phone {
+z-index: 4;
+}
 /* ----------------------Footer */
 
 footer {
     background-color: #000;
     color: #5CE1E6;
     min-height: 50px;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 span {
@@ -324,7 +340,6 @@ color: #5CE1E6;
     font-size: 40px;
     width: 300px;
     margin: 50px auto;
-    text-align: center;
    }
 
    #signup {
@@ -335,6 +350,33 @@ color: #5CE1E6;
     width: 300px;
     margin: 10px auto;
    }
+
+   label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: pink;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'League Spartan';
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+   }
+
+  option .classic {
+    font-size: 12px;
+    background-color: 000;
+  }
+
+  option .barbie {
+    font-size: 12px;
+    background-color:#E26FA3;
+  }
+
+  option .evergreen {
+    font-size: 12px;
+    background-color: #B8DDB8;
+  }
    
    button[type="submit"] {
     background-color:#E26FA3;
@@ -347,12 +389,28 @@ color: #5CE1E6;
         color:#5CE1E6;
     }
 
+    .zoom {
+        position: relative;
+        padding: 10px;
+        transition: transform .2s; /* Animation */
+        width: 300px;
+        height: 200px;
+        margin: 0 auto;
+      }
+      
+      .zoom:hover {
+        transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+
+      .cards-selection img {
+        left:0;
+        }
 
     .center-form {
         padding-top: 10px;
         margin: 0 auto;
-        max-width: 70%;
-    }
+        max-width: 90%;
+    }                                
 
     .contact-headings {
         color: #E26FA3;
@@ -367,8 +425,26 @@ color: #5CE1E6;
     }
 
     .kae-map {
-        margin-left: 40px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 40px;
         max-width: 100%;
+    }
+
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    
+    }
+    
+    .map-responsive iframe{
+        left:0;
+        height:75%;
+        width:100%;
+        position:absolute;
+    
     }
 /* ----------------------------------------Media Queries */
 
