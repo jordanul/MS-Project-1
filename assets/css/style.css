@@ -94,14 +94,13 @@ color: #5CE1E6;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    height: max-content;
 }
 
 .partner-heading {
     font-family: "League Spartan", sans-serif;
     margin-top: 30px;
-    text-align: center;
     color: #5CE1E6;
-    margin-left: 25%;
     position: relative;
 }
 
@@ -116,6 +115,11 @@ color: #5CE1E6;
     color: #fff;
     margin-top: 20px;
 }
+
+.del-ser {
+    text-align: center;
+}
+
 
 .partner-icon {
     color: #fff;
@@ -140,8 +144,10 @@ color: #5CE1E6;
     border-radius: 25px;
     background: rgba(0, 0, 0, 0.9);
     box-shadow: var(--boxshadow);
-    margin-left: 25%;
+    margin: 0 25%;
     max-width: 50%;
+    display: flex;
+    justify-content: space-evenly
 }
 
 h5 {
@@ -157,12 +163,13 @@ h5 {
 }
 
 .section-heading {
-    font-size: 50px;
+    font-size: 70px;
     font-family: "League Spartan", sans-serif;
     max-width: 600px;
     margin-top: 60px;
     margin-bottom: 40px;
     color: #fff;
+    font-weight: 700;
 }
 
 .section-heading-2 {
@@ -171,9 +178,10 @@ h5 {
     max-width: 600px;
     margin-top: 30px;
     margin-bottom: 20px;
-    margin-left: 0px;
+    margin-left: 40px;
     color: #fff;
     opacity: 1.0;
+    font-weight: 700;
 }
 
 .section-description {
@@ -192,6 +200,7 @@ h5 {
     font-size: 40px;
     color: #fff;
     font-family: "League Spartan", sans-serif;
+    font-weight: 600;
 }
 
 .app-img {
@@ -222,6 +231,9 @@ button[type="button"]:hover {
     background-color: #6c757d;;
     }
 /* ----------------------FAQ-section */
+.q-mark {
+    margin-left: 15px;
+}
 
 .questions {
     color: #E26FA3;
@@ -292,6 +304,18 @@ z-index: 3;
 .phone {
 z-index: 4;
 }
+
+.learn {
+    font-size: 50px;
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+}
+
+.embed-responsive {
+    margin: auto;
+}
+
 /* ----------------------Footer */
 
 footer {
@@ -299,6 +323,7 @@ footer {
     color: #5CE1E6;
     min-height: 50px;
     margin-bottom: 0;
+    text-align: center;
 }
 
 span {
@@ -354,13 +379,17 @@ color: #5CE1E6;
    label {
     display: inline-block;
     margin-bottom: 0.5rem;
-    color: pink;
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
     font-family: 'League Spartan';
     text-align: center;
     margin-top: 10px;
     margin-right: 10px;
+   }
+
+   #wildcard {
+    margin-bottom: 20px;
    }
 
   option .classic {
@@ -392,14 +421,14 @@ color: #5CE1E6;
     .zoom {
         position: relative;
         padding: 10px;
-        transition: transform .2s; /* Animation */
+        transition: transform .2s;
         width: 300px;
         height: 200px;
         margin: 0 auto;
       }
       
       .zoom:hover {
-        transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        transform: scale(2);
       }
 
       .cards-selection img {
@@ -424,6 +453,14 @@ color: #5CE1E6;
     margin-bottom: 40px;
     }
 
+    .contact-headings-2 {
+        color: #E26FA3;
+    font-family: "League Spartan", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    }
+
     .kae-map {
         margin-left: 60px;
         margin-right: 60px;
@@ -446,6 +483,18 @@ color: #5CE1E6;
         position:absolute;
     
     }
+
+    .address {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .address-p {
+        font-family: "League Spartan", sans-serif;;
+        font-size: 20px;
+        color: #fff;
+    }
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
