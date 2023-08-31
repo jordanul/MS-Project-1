@@ -1,108 +1,197 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Kae Loyalty Card Website
 
-Welcome Jordean Ulysses,
+Created by Jordean Ulysses
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+To view the Live project: */ Insert live link later*/
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+*/ Insert screen view of main pages on various devices*/
 
-## Gitpod Reminders
+This is the main website for the Kae collective loyalty card.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Kae Collective Loyalty Card
 
-`python3 -m http.server`
+This is the readme file and documentation to go alongside my milestone project. My particular project is to build an informational website about the fictional Kae collective loyalty card wit hte goal to update it an d improve it as my skills grow. The project is being built using HTML5, CSS and bootstrap as my first milestone project. This is part of Code Institute's Introduction to Web Development Diploma.
 
-A blue button should appear to click: _Make Public_,
+## Contents
 
-Another blue button should appear to click: _Open Browser_.
+1. Project Planning & User Experience.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+   * Purpose of Project User Experience (UX)
+   * Client Goals
+   * About my Client
+   * User Goals (First Visit, Returning and Frequent users)
+   * The Five Planes
 
-A blue button should appear to click: _Make Public_,
+2. Design layout & Structure.
 
-Another blue button should appear to click: _Open Browser_.
+   * Wireframe
+   * Structure
+   * Colour Palette
+   * Typography
+   * Imagery
+  
+3. Technologies Used.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+   * Languages
+   * Frameworks, Libraries and Programs used
+ Bootstrap: v4.2.1
 
-To log into the Heroku toolbelt CLI:
+   * Future Ideas (Actual login submission options, animations, tie ins with other sites, Youtube page, live chat)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+4. Testing.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+   * Wc3
+   * Peer Review
+   * Bugs
+   * Accessibility
 
-------
+5. Deployment.
+   *
 
-## Release History
+6. Credits.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Project Planning & User Experience (UX)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+With the principles of design I have followed the five planes of stratergy, Scope, Structure & Surface. My aim is to make my website as responsive, clear, accessible and eye catching.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Purpose of the Website
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The purpose of the website is to display to international users and partners the benefits of the card not only as a user but to companies themselves in terms of attracting more custom.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### About Kae
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The idea for the card came from I myself noticing that although a lot of restaurants and supermarkets have and market loyalty cards for use in store and on their own websites, there are a vast number of customers who will now prefer to order groceries online through third parties for the sake of convenience and speed especially since the pandemic. There is a gap in the market for those customers who lose out on the typical rewards they'd receive for their patronage if they had shopped in person.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### User Goals
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* To view who Kae are
+* To answer and develop FAQs
+* To be able to see and suggest partners the company currently work with
+* To sign up for the card with multiple options for personalised design.
+* To be able to contact the company in case of any issues by  email, phone or post.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Company Objectives
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* To build a ciustomer and business based clientele
+* To have a legitimate and official looking website
+* To develop a online presence and spread the word within professional and customer based networks. 
+* To be accessible and personable.
+  
+### First Time Visitor
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* A first time visitor will want to understand the purpose of the card and the benefits it will have for them.
+* They will want to know what companies also work alongside Kae and if it will align with what they want from the card. 
+* They may use it to find other companies loyalty schemes.
+* #The may use it to contact the company with suggestions or further questions not answered in the FAQ section.
+* The may use it to find out if the company is LGBT inclusive and aligns with their morals.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Returning Visitors
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* A returning visitor might want to view the updated partners or features of the card.
+* They may have lost a card or forgotten their details and be looking to have this rectified.
+* They could be looking to download the app directly if it can't be found using application stores.
+* They might find that they want a physical version of the card for aesthetic and convenience purposes. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Frequent Visitors
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Will likely be there to check if Kae may apply to a service they've recently signed up to.
+* They will use the site to view their collective loyalty points across multiple platforms instead of individually.
+* They also may want to check if Kae applies to services they may be using internationally.
 
-------
+## The Five Planes
 
-## FAQ about the uptime script
+#### Strategy
 
-**Why have you added this script?**
+Questions I have condidered during my research include:
+Who is likely to use this site: Target Audience? My target audience is people who may be looking to save money by being rewardded for their patronage no matter the shopping format.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Is the content relevant? I will need to make sure that the site looks professional, is accessible and asy for navigate for all users. I will also need to make sure that the site contains relevant information that users may be looking to find on a first or returning visit. 
 
-**How will this affect me?**
+Company Goals: I would love Kae to become an official option for international stores to have their customers use. Alot of people rely on loyalty points whether it be when they are low on money,just would like a freebie or are doing large shops for events (such as Christmas or parties) and frequently will save points over periods of time to use for these specific purposes.Given the current economic climate across the world, if Kae were established in the regions mentioned on the site, it could be a large help to all kinds of people.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### Scope
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Needs: The website needs to have a clear purpose from the landing page. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Must Have Pages: Home, Partner Page, FAQ section or page, Sign Up & Contact page
 
-**So….?**
+Potential options for later: App download, Login page, Animated interface, 404 page.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+#### Structure
 
-**Can I opt out?**
+The website needs to be clear and simple structure, with easy to follow straightforward links. It needs to be consistant and meet conventions of structure to allow ease of use and user consistency.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#### Skeleton
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Navigation: Very simple Navigation bar
 
-**Anything more?**
+Interface: Needs to be visually appealing and clear. Meets the needs of users!
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Features: The features I use must be useful, and follow the same pattern. Infomation needs to be put in priority order. With minimal features and complexity to add to usebility and a better user experience.
 
----
+#### Surface
 
-Happy coding!
+I wanted the design to be minimalistic with a futuristic feel to it so it would be simple enough for all users to read and process while at the same time still presenting modernity.
+
+## Design Layout & Structure
+
+### Wireframes
+
+ (Wireframe will be added here)
+
+### Structure
+
+* Home
+* Our Partners
+* Get Kae. (Sign Up)
+* Contact Us
+
+### Colour Palette
+
+!(CPalette.png)
+
+### Typography
+
+! [Screenshot of League Spartan Font](assets/images/Readme/League.png)
+! [Screenshot of Livvic Font] (assets/images/Readme/Livvic.png)
+! [Screenshot of Montserrat Font](assets/images/Readme/Montserrat.png) 
+
+### Imagery
+
+Hero Image: Designed by myself using Canva
+
+The large majority of the imagery used was designed by myself using features from Canva, and any card imagery was generate using Placeit. Any company logos were found as png/svg formats on https://companieslogo.com/,https://freebiesupply.com/, pngwing.com and Google images.
+
+## Technologies used
+
+### Languages
+
+* HTML 5
+* CSS
+
+### Frameworks, Libraries and Programmes
+
+* Bootstrap - At the time of writing this readme I was using the latest version of bootstrap which was v4.2.1
+* Fontawesome.com: Was used for Icons across the site.
+
+### Future Ideas
+
+## Testing
+
+### WC3
+
+### Peer Review
+
+### Bugs
+
+Is my site accessable (siteimprove.com):
+
+### Accessability
+
+## Deployment
+
+## Credits
+
+I would like to thank my mentor Gareth for being incredibly helpful despite everything being quite last minute.
+
+I would likely to sincerely thank the members of the Code Institute's Student Support. Without their encouragement and assistance I wouldn't have been able to complete this at all. 
