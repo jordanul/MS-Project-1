@@ -52,7 +52,7 @@ This is the readme file and documentation to go alongside my milestone project. 
 
 ## Project Planning & User Experience (UX)
 
-With the principles of design I have followed the five planes of stratergy, Scope, Structure & Surface. My aim is to make my website as responsive, clear, accessible and eye catching.
+With the principles of design I have followed the five planes of stratergy, Scope, Structure & Surface. My aim is to make my website as responsive, clear, accessible and eye catching in order to be appealing to both business and regular patrons.
 
 ### Purpose of the Website
 
@@ -60,15 +60,17 @@ The purpose of the website is to display to international users and partners the
 
 ### About Kae
 
-The idea for the card came from I myself noticing that although a lot of restaurants and supermarkets have and market loyalty cards for use in store and on their own websites, there are a vast number of customers who will now prefer to order groceries online through third parties for the sake of convenience and speed especially since the pandemic. There is a gap in the market for those customers who lose out on the typical rewards they'd receive for their patronage if they had shopped in person.
+The idea for the card came from I myself noticing that although a lot of restaurants and supermarkets have and market loyalty cards for use in store and on their own websites; there are a vast number of customers who will now prefer to order groceries online through third parties for the sake of convenience and speed especially since the pandemic. There is a gap in the market for those customers who lose out on the typical rewards they'd receive for their patronage if they had shopped in person.
 
 ### User Goals
+
+The website will be for different users with different agendas.
 
 * To view who Kae are
 * To answer and develop FAQs
 * To be able to see and suggest partners the company currently work with
-* To sign up for the card with multiple options for personalised design.
-* To be able to contact the company in case of any issues by  email, phone or post.
+* To sign up for the card with multiple options for personalised design
+* To be able to contact the company in case of any issues by  email, phone or post
 
 ### Company Objectives
 
@@ -102,12 +104,20 @@ The idea for the card came from I myself noticing that although a lot of restaur
 
 #### Strategy
 
-Questions I have condidered during my research include:
-Who is likely to use this site: Target Audience? My target audience is people who may be looking to save money by being rewardded for their patronage no matter the shopping format.
+Questions I have considered during my research include:
+* Who is likely to use this site? 
 
-Is the content relevant? I will need to make sure that the site looks professional, is accessible and asy for navigate for all users. I will also need to make sure that the site contains relevant information that users may be looking to find on a first or returning visit. 
+*Who are my target Audience? 
 
-Company Goals: I would love Kae to become an official option for international stores to have their customers use. Alot of people rely on loyalty points whether it be when they are low on money,just would like a freebie or are doing large shops for events (such as Christmas or parties) and frequently will save points over periods of time to use for these specific purposes.Given the current economic climate across the world, if Kae were established in the regions mentioned on the site, it could be a large help to all kinds of people.
+My target audience is people who may be looking to save money by being rewarded for their patronage no matter the shopping format. My target also includes business who may have seen or notice Kae's partnership with other larger brands and want to research how/if it would be beneficial for them to also develop a partnership. 
+
+*Is the content relevant? 
+
+In order to achieve this, I'll need to make sure that the site looks professional, is accessible and easy to navigate for all users and contains relevant information that users may be looking to find on a first or returning visit. 
+
+* Company Goals 
+
+I would love Kae to become an official option for international stores to have their customers use. Alot of people rely on loyalty points whether it be when they are low on money,just would like a freebie or are doing large shops for events (such as Christmas or parties) and frequently will save points over periods of time to use for these specific purposes.Given the current economic climate across the world, if Kae were established in the regions mentioned on the site, it could be a large help to all kinds of people.
 
 #### Scope
 
@@ -133,6 +143,8 @@ Features: The features I use must be useful, and follow the same pattern. Infoma
 
 I wanted the design to be minimalistic with a futuristic feel to it so it would be simple enough for all users to read and process while at the same time still presenting modernity.
 
+I feel that by having such a design, it would be more intriguing to younger clients and in turn intrigue business who might want to extend to a larger demographic than they already have. 
+
 ## Design Layout & Structure
 
 ### Wireframes
@@ -141,6 +153,8 @@ I wanted the design to be minimalistic with a futuristic feel to it so it would 
 
 ### Structure
 
+The structure of my site is 
+
 * Home
 * Our Partners
 * Get Kae. (Sign Up)
@@ -148,19 +162,24 @@ I wanted the design to be minimalistic with a futuristic feel to it so it would 
 
 ### Colour Palette
 
-!(CPalette.png)
+Colour Palette generated using Coolors (https://coolors.co/)
+
+![Screenshot of Colour Palette used](assets/images/Readme/CPalette.png)
 
 ### Typography
 
-! [Screenshot of League Spartan Font](assets/images/Readme/League.png)
-! [Screenshot of Livvic Font] (assets/images/Readme/Livvic.png)
-! [Screenshot of Montserrat Font](assets/images/Readme/Montserrat.png) 
+![Screenshot of League Spartan Font](assets/images/Readme/League.png)
+![Screenshot of Livvic Font](assets/images/Readme/Livvic.png)
+![Screenshot of Montserrat Font](assets/images/Readme/Montserrat.png) 
+
 
 ### Imagery
 
 Hero Image: Designed by myself using Canva
 
-The large majority of the imagery used was designed by myself using features from Canva, and any card imagery was generate using Placeit. Any company logos were found as png/svg formats on https://companieslogo.com/,https://freebiesupply.com/, pngwing.com and Google images.
+![Kae Hero Image](assets/images/Kaeheroimg.png)
+
+The large majority of the imagery used was designed by myself using features from Canva, and any card imagery was generated using Placeit. Any company logos were found as png/svg formats on https://companieslogo.com/,https://freebiesupply.com/, pngwing.com and Google images.
 
 ## Technologies used
 
@@ -171,8 +190,8 @@ The large majority of the imagery used was designed by myself using features fro
 
 ### Frameworks, Libraries and Programmes
 
-* Bootstrap - At the time of writing this readme I was using the latest version of bootstrap which was v4.2.1
-* Fontawesome.com: Was used for Icons across the site.
+* Bootstrap - In accordance with the tutorial I was used to this project was created using Bootstrap v4.2.1
+* Fontawesome.com: Provided any icons used across the site.
 
 ### Future Ideas
 
@@ -184,9 +203,9 @@ The large majority of the imagery used was designed by myself using features fro
 
 ### Bugs
 
-Is my site accessable (siteimprove.com):
+Is my site accessible (siteimprove.com):
 
-### Accessability
+### Accessibility
 
 ## Deployment
 
