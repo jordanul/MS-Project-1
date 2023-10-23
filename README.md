@@ -203,14 +203,77 @@ The large majority of the imagery used was designed by myself using features fro
 
 ### Bugs
 
+## Unsolved bugs:
+   
+   1. Navigation toggling for each page.
+         *For some reason my nav burgers for all pages barring my index page will not toggle at all. I am using the same code fo reach and every page and have looks on W3Schools, Stackoverflow and MDN and have consulted peers to no resolve.
+
+
+
 Is my site accessible (siteimprove.com):
 
 ### Accessibility
 
 ## Deployment
 
+### GitHub Pages
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+1. In the GitHub repository, navigate to the Settings tab 
+2. From the left hand menu select 'Pages'
+3. From the source select Branch: main
+4. Click 'Save'
+5. A live link will be displayed when published successfully. 
+
+The live link can be found here - https://jordanul.github.io/MS-Project-1/
+
+### Forking the GitHub Repository
+
+You can fork the repository by following these steps:
+1. Go to the GitHub repository
+1. Click on Fork button in upper right hand corner
+
+### Cloning the GitHub Repository
+
+You can clone the repository to use locally by following these steps:
+1. Navigate to the GitHub Repository you want to clone
+2. Click on the code drop down button
+3. Click on HTTPS
+4. Copy the repository link to the clipboard
+5. Open your IDE of choice (git must be installed for the next steps)
+6. Type git clone copied-git-url into the IDE terminal
+
+The project will now be cloned locally for you to use.
+
+
 ## Credits
 
-I would like to thank my mentor Gareth for being incredibly helpful despite everything being quite last minute.
+### Code
+
+   * Bootstrap 4: Boostrap 4's library was used throughout my project for understanding of how to use certain aspects and shortcuts
+
+   * Fontawesome icons were used
+
+### Media
+
+### Video
+
+      * My video was sourced from youtube and can be found here: (https://www.youtube.com/watch?v=0N5Vc7LsgNE)
+
+#### **Photos**
+
+   * Most imagery was created by me using Canva and Mockups made using (https://placeit.net/)
+
+   ## Company logos were sourced from: 
+
+      * (https://www.pngwing.com/)
+
+      * (https://companieslogo.com/)
+
+      * (https://freebiesupply.com/)
+
+### Acknowledgments
+
+I would like to thank my mentor Gareth (https://github.com/Gareth-McGirr/) for being incredibly helpful despite everything being quite last minute.
 
 I would likely to sincerely thank the members of the Code Institute's Student Support. Without their encouragement and assistance I wouldn't have been able to complete this at all. 
